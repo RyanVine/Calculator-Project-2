@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOM</title>
-  <style>
-    *{
-      font-family: sans-serif;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project 2</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="calculator">
+      <section class="calculator__display" data-cy="display">0</section>
+      <div class="calculator__button__container">
+        <button class="calculator__button calculator__function calculator__clear" data-cy="clear">C</button>
+        <button class="calculator__button calculator__function calculator__plus-or-minus" data-cy="negative-positive">
+          +/-
+        </button>
+        <button class="calculator__button calculator__function calculator__percent" data-cy="percent">%</button>
+        <button class="calculator__button calculator__operator" data-cy="divide">÷</button>
 
-    .valid{
-      background-color: lightgreen;
-      border: 5px solid green;
-    }
-  </style>
-</head>
-<body>
-  <h1 onmouseover="alert('Mouse over')">This is my heading</h1>
+        <button class="calculator__button calculator__number" data-cy="seven">7</button>
+        <button class="calculator__button calculator__number" data-cy="eight">8</button>
+        <button class="calculator__button calculator__number" data-cy="nine">9</button>
+        <button class="calculator__button calculator__operator" data-cy="multiply">X</button>
 
-  <button>Click me</button>
-  
-  <form action="">
-    <input type="text" />
-  </form>
-</body>
+        <button class="calculator__button calculator__number">4</button>
+        <button class="calculator__button calculator__number" data-cy="five">5</button>
+        <button class="calculator__button calculator__number">6</button>
+        <button class="calculator__button calculator__operator" data-cy="subtract">-</button>
+
+        <button class="calculator__button calculator__number" data-cy="one">1</button>
+        <button class="calculator__button calculator__number" data-cy="two">2</button>
+        <button class="calculator__button calculator__number">3</button>
+        <button class="calculator__button calculator__operator" data-cy="addition">+</button>
+
+        <button class="calculator__button calculator__button-0 calculator__number" data-cy="zero">0</button>
+        <button class="calculator__button calculator__button-decimal" data-cy="decimal">.</button>
+        <button class="calculator__button" id="equals" data-cy="equal">=</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
