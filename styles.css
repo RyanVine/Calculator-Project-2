@@ -49,22 +49,24 @@ body .calculator .calculator__display {
 }
 
 .calculator .calculator__button {
-  background: #333;
+  background: #272B33;
   color: white;
   font-size: 45px;
   height: 110px;
   width: 110px;
-  border-color: black;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
 }
 .calculator .calculator__function {
-  color: black;
-  background: #a7a6a6;
+  color: #26F8D2;
+  background: #272B33;
 }
 .calculator .calculator__operator {
-  color: white;
-  background: #f1a33c;
+  color: #F37A7A;
+  background: #272B33;
 }
 .calculator .calculator__button-0 {
-  width: 225px;
+  width: 235px;
   justify-content: flex-start;
 }
