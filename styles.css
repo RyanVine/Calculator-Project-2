@@ -15,7 +15,7 @@ body {
   width: 550px;
 }
 .calculator .calculator__display {
-  border-radius: 20%;
+  border-radius: 30px;
   display: flex;
   justify-content: space-between;
   font-size: 100px;
@@ -35,11 +35,11 @@ body {
   background-color: white;
 }
 body .calculator {
-  background: #2ECC71;
+  background: #22252D;
 }
 body .calculator .calculator__display {
-  color: #2ECC71;
-  background-color: #5DADE2;
+  color: white;
+  background-color: #292D36;
 }
 
 * {
@@ -50,7 +50,6 @@ body .calculator .calculator__display {
 
 .calculator .calculator__button {
   background: #333;
-  border-radius: 50%;
   color: white;
   font-size: 45px;
   height: 110px;
@@ -67,7 +66,5 @@ body .calculator .calculator__display {
 }
 .calculator .calculator__button-0 {
   width: 225px;
-  border-radius: 55px;
   justify-content: flex-start;
-  padding-right: 120px;
 }
